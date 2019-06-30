@@ -7,7 +7,7 @@ public class GedcomUnFtmEventOptions extends GedcomOptions {
     public void help() {
         this.help = true;
         System.err.println("Usage: java -jar gedcom-unftmevent-all.jar [OPTIONS] <in.ged >out.ged");
-        System.err.println("Sort a GEDCOM file.");
+        System.err.println("Undoes Family Tree Maker's turning unknown event tags from imported GEDCOM files to EVEN records.");
         System.err.println("Options:");
         System.err.println("-t, --tag=TAG        INDI tag to extract (from INDI.EVEN.TYPE)");
         options();
